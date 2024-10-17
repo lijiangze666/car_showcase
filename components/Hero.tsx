@@ -27,8 +27,9 @@ const Hero = () => {
                         fill
                         className="object-contain"
                     />
-                    <div className="hero__image-overlay"></div>
                 </div>
+                <div className="hero__image-overlay"></div>
+
             </div>
         </div>
     );
