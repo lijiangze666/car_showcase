@@ -25,7 +25,7 @@ const DynamicNavBar = () => {
 
     return (
         <header className={`fixed top-0 left-0 right-0 w-full z-10 transition-all duration-300 ease-in-out ${
-            isScrolled ? 'bg-white bg-opacity-70 backdrop-blur-md shadow-md' : 'bg-transparent'
+            isScrolled ? 'bg-white bg-opacity-40 backdrop-blur-md shadow-md' : 'bg-transparent'
         }`}>
             <nav className="max-w-[1440px] mx-auto flex justify-between items-center sm:px-16 px-6 py-4">
                 <Link href="/" className="flex justify-center items-center">
